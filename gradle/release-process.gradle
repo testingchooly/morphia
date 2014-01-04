@@ -12,8 +12,6 @@ def bumpVersion(String v) {
 }
 
 github {
-    repo = 'git@github.com:mongodb/morphia.git'
-
     wiki {
         from(project(':morphia').javadoc.outputs.files)
         into { "javadoc/$project.release.version" }
