@@ -51,7 +51,7 @@ release {
     }
 */
 
-    dependsOn subprojects.uploadArchives
+//    dependsOn subprojects.uploadArchives
     dependsOn publishWiki
-    dependsOn draftGhRelease
+//    dependsOn draftGhRelease
 }
